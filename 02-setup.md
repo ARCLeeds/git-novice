@@ -77,6 +77,8 @@ same commands to choose another editor or update your email address.
 > $ git config --global --unset https.proxy
 > ~~~
 
+Not all Windows computers will have a command line editor installed, so:
+
 > ## Installing nano editor on Windows {.callout}
 >
 > If your Windows PC doesn't have the nano editor installed, you can install it through
