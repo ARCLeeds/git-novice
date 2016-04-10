@@ -76,3 +76,21 @@ same commands to choose another editor or update your email address.
 > $ git config --global --unset http.proxy
 > $ git config --global --unset https.proxy
 > ~~~
+
+> ## Installing nano editor on Windows {.callout}
+>
+> If your Windows PC doesn't have the nano editor installed, you can install it through
+> the [Chocolatey](xxx) package manager.
+>
+> First install Chocolatey.
+> In a Windows command shell enter the following all on one line:
+> ~~~{.bash}
+> C:\> @powershell -NoProfile -ExecutionPolicy unrestricted -Command "(iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))) >$null 2>&1" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+> ~~~
+>
+> Then install nano:
+> 
+> ~~~{.bash}
+> C:\> choco install nano
+> ~~~
+
